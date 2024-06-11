@@ -37,5 +37,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 GitHub'daki dosyayı güncellemek için terminal kodları:
 git add .
-git commit -m "v9"
+git commit -m "v11"
 git push origin main
