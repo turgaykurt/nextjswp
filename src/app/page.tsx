@@ -1,5 +1,6 @@
 import { Splide } from '@splidejs/splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
+import Link from 'next/link'
 
 
 async function getData(postSlug: string) {
