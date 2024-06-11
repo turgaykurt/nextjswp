@@ -1,6 +1,7 @@
 import { Splide } from '@splidejs/splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
+
 async function getData(postSlug: string) {
     const res = await fetch(
         `https://nextjswp.turgaykurt.com/wp-content/uploads/json/pages/?slug=home-page`

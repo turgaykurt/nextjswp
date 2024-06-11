@@ -19,12 +19,12 @@ export default async function Page() {
     return (
         <div className="blog">
             <div className="kapsayici">
-                <h1>Blog WP JSON Veri Çekme {process.env.baseSite}</h1>
+                <h1>Blog WP JSON Veri Çekme</h1>
                 <ul className="sutun">
                     {data.map((item: any) => {
                         return (
                             <li className="kart" key={item.slug}>
-                                <Link href={`/blog-wp/${item.slug}`}>
+                                <Link href={`/blog/${item.slug}`}>
                                     <Image
                                         src={item.thumbnail_url}
                                         alt="Blog Görseli"

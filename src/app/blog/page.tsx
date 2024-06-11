@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import BlogList from "../../components/BlogList";
+import BlogListWp from "../../components/BlogListWp";
 
 export const metadata: Metadata = {
     title: "Blog",
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Blog() {
     return (
         <div>
-            <BlogList />
+            <BlogListWp />
         </div>
     );
 }
